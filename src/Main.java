@@ -15,7 +15,8 @@ public class Main {
         for (int i = 0; i < arr.length; i++) {
             if (i == arr.length - 1) {
                 System.out.print(arr[i]);
-            } else System.out.print(arr[i] + ", ");
+            }
+            else System.out.print(arr[i] + ", ");
         }
         System.out.print("\n");
 
@@ -23,7 +24,8 @@ public class Main {
         for (int i = 0; i < arr2.length; i++) {
             if (i == arr2.length - 1) {
                 System.out.print(arr2[i]);
-            } else System.out.print(arr2[i] + ", ");
+            }
+            else System.out.print(arr2[i] + ", ");
         }
         System.out.print("\n");
 
@@ -32,7 +34,8 @@ public class Main {
         for (int i = 0; i < arr3.length; i++) {
             if (i == arr3.length - 1) {
                 System.out.print(arr3[i]);
-            } else System.out.print(arr3[i] + ", ");
+            }
+            else System.out.print(arr3[i] + ", ");
         }
     }
 
@@ -46,7 +49,8 @@ public class Main {
         for (int i = arr.length - 1; i >= 0; i--) {
             if (i == 0) {
                 System.out.print(arr[i]);
-            } else
+            }
+            else
                 System.out.print(arr[i] + ", ");
         }
         System.out.print("\n");
@@ -55,7 +59,8 @@ public class Main {
         for (int i = arr2.length - 1; i >= 0; i--) {
             if (i == 0) {
                 System.out.print(arr2[i]);
-            } else System.out.print(arr2[i] + ", ");
+            }
+            else System.out.print(arr2[i] + ", ");
         }
         System.out.print("\n");
 
@@ -63,19 +68,26 @@ public class Main {
         for (int i = arr3.length - 1; i >= 0; i--) {
             if (i == 0) {
                 System.out.print(arr3[i]);
-            } else System.out.print(arr3[i] + ", ");
+            }
+            else System.out.print(arr3[i] + ", ");
         }
         System.out.println("\n");
     }
 
     public static void task4() {
         int[] arr = {1, 2, 3};
-        for (int i = 0; i <= (arr.length - 1); i++) {
-            if (arr[i] % 2 != 0) {
-                System.out.print(arr[i] + 1 + ", ");
+        for (int i = 0; i < arr.length; i++) {
 
-            } else
+            if (arr[i] % 2 != 0) {
+                arr[i] += 1;
+
+            }
+
+            if (i != arr.length - 1) {
                 System.out.print(arr[i] + ", ");
+            }
+            else
+                System.out.print(arr[i]);
         }
 
 
