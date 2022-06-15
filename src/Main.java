@@ -6,7 +6,7 @@ public class Main {
     }
 
 
-    public static void task1and2() {
+    private static void task1and2() {
         int[] arr = new int[3];
         arr[0] = 1;
         arr[1] = 2;
@@ -39,7 +39,7 @@ public class Main {
         }
     }
 
-    public static void task3() {
+    private static void task3() {
         int[] arr = {1, 2, 3};
         double[] arr2 = {1.57, 7.654, 9.986};
         int[] arr3 = {1, 2, 54, 21, 675, 13, 0, 0, 342};
@@ -74,7 +74,7 @@ public class Main {
         System.out.println("\n");
     }
 
-    public static void task4() {
+    private static void task4() {
         int[] arr = {1, 2, 3};
         for (int i = 0; i < arr.length; i++) {
 
